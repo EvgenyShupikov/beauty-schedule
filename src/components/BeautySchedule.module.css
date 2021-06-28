@@ -1,0 +1,44 @@
+.day__title {
+  display: flex;
+}
+
+.day__name {
+  flex-grow: 1;
+}
+
+.point {
+  display: flex;
+}
+
+.point__name {
+  flex-grow: 1;
+}
+
+.time {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.time:last-child {
+  margin-bottom: 0;
+}
+
+.time__input {
+  width: 4em;
+}
+
+.time__input::-webkit-calendar-picker-indicator {
+  margin-right: -100px;
+}
+
+.time__button_add {
+  color: #00F;
+  cursor: pointer;
+}
+
+.time__button_delete {
+  color: #F00;
+  cursor: pointer;
+}

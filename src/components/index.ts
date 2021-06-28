@@ -1,0 +1,1 @@
+export { BeautySchedule } from './BeautySchedule';
